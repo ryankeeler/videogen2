@@ -14,6 +14,10 @@ size_categories:
 - 1M<n<10M
 ---
 
+<p align="center">
+  <img src="https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/OpenVid-1M.png">
+</p>
+
 # Summary
 OpenVid-1M is a high-quality text-to-video dataset designed for research institutions to enhance video quality, featuring high aesthetics, clarity, and resolution. It can be used for direct training or as a quality tuning complement to other video datasets.
 
