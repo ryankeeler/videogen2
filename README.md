@@ -39,10 +39,14 @@ wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/OpenVid_part2
 ```
 
 # Usage
-You can unzip each OpenVid_part*.zip file by ```unzip ```, for instance:
+You can unzip each OpenVid_part*.zip file by ```unzip```, for instance:
 ```
 unzip -j OpenVid_part0.zip -d video_folder
 unzip -j OpenVid_part1.zip -d video_folder
 unzip -j OpenVid_part2.zip -d video_folder
 ...
+```
+We split some large files (> 50G) into multiple small files, you can recover these files by ```cat```, for instance:
+```
+cat OpenVid_part73_part* > OpenVid_part73.zip
 ```
