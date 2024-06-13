@@ -23,14 +23,8 @@ OpenVid-1M is a high-quality text-to-video dataset designed for research institu
 DATA_PATH
     OpenVid-1M.csv
     OpenVidHD.csv
-    original_files
-      OpenVid_part0.zip
-      OpenVid_part1.zip
-      OpenVid_part2.zip
-      ...
-    videos
-      video1.mp4
-      video2.mp4
-      video3.mp4
-      ...
+    OpenVid_part0.zip
+    OpenVid_part1.zip
+    OpenVid_part2.zip
+    ...
 ```
