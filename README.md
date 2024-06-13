@@ -59,4 +59,4 @@ df = pd.read_csv("OpenVid-1M.csv")
 ```
 
 # License
-Our OpenVid-1M is released as CC-BY-4.0. The video samples are collected from publicly available datasets. Users must follow the related licenses (\href{https://github.com/snap-research/Panda-70M/tree/main?tab=readme-ov-file#license-of-panda-70m}{Panda}, \href{https://github.com/PKU-YuanGroup/MagicTime?tab=readme-ov-file#-license}{ChronoMagic}, \href{https://github.com/PKU-YuanGroup/Open-Sora-Plan?tab=readme-ov-file#-license}{Open-Sora-plan}, CelebvHQ(Unknow)) to use these video samples.
+Our OpenVid-1M is released as CC-BY-4.0. The video samples are collected from publicly available datasets. Users must follow the related licenses [Panda](https://github.com/snap-research/Panda-70M/tree/main?tab=readme-ov-file#license-of-panda-70m), \href{https://github.com/PKU-YuanGroup/MagicTime?tab=readme-ov-file#-license}{ChronoMagic}, \href{https://github.com/PKU-YuanGroup/Open-Sora-Plan?tab=readme-ov-file#-license}{Open-Sora-plan}, CelebvHQ(Unknow)) to use these video samples.
