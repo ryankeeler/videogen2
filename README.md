@@ -49,4 +49,12 @@ unzip -j OpenVid_part2.zip -d video_folder
 We split some large files (> 50G) into multiple small files, you can recover these files by ```cat```, for instance:
 ```
 cat OpenVid_part73_part* > OpenVid_part73.zip
+unzip -j OpenVid_part73.zip -d video_folder
+```
+``OpenVid-1M.csv`` and ``OpenVidHD.csv`` contains the text-video pairs.
+They can easily be read by
+
+```python
+import pandas
+df = pd.read_csv("OpenVid-1M.csv")
 ```
