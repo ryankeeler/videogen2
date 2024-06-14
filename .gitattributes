@@ -64,3 +64,4 @@ OpenVid_part111_partab filter=lfs diff=lfs merge=lfs -text
 OpenVid_part73_partaa filter=lfs diff=lfs merge=lfs -text
 OpenVid_part92_partab filter=lfs diff=lfs merge=lfs -text
 OpenVid_part96_partab filter=lfs diff=lfs merge=lfs -text
+OpenVid_part102_partab filter=lfs diff=lfs merge=lfs -text
