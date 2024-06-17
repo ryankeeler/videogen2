@@ -20,6 +20,7 @@ size_categories:
 
 # Summary
 OpenVid-1M is a high-quality text-to-video dataset designed for research institutions to enhance video quality, featuring high aesthetics, clarity, and resolution. It can be used for direct training or as a quality tuning complement to other video datasets.
+Furthermore, we curate 433K 1080p videos from OpenVid-1M to create OpenVidHD, advancing high-definition video generation.
 
 
 # Directory
