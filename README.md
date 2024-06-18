@@ -30,7 +30,7 @@ All videos in the OpenVid-1M dataset have resolutions of at least 512×512. Furt
 
 <p align="center">
   <video controls>
-    <source src="https://huggingface.co/datasets/nkp37/OpenVid-1M/blob/main/compare_videos/IIvwqskxtdE_0.mp4" type="video/mp4">
+    <source src="https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/compare_videos/IIvwqskxtdE_0.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
