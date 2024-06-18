@@ -19,8 +19,7 @@ size_categories:
 </p>
 
 # Summary
-This is the dataset proposed in our paper "[**OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation**](https://huggingface.co/datasets/nkp37/OpenVid-1M/tree/main)"
-
+This is the dataset proposed in our paper "[**OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation**](https://huggingface.co/datasets/nkp37/OpenVid-1M/tree/main)".
 OpenVid-1M is a high-quality text-to-video dataset designed for research institutions to enhance video quality, featuring high aesthetics, clarity, and resolution. It can be used for direct training or as a quality tuning complement to other video datasets.
 All videos in the OpenVid-1M dataset have resolutions of at least 512×512. Furthermore, we curate 433K 1080p videos from OpenVid-1M to create OpenVidHD, advancing high-definition video generation.
 
