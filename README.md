@@ -36,6 +36,52 @@ All videos in the OpenVid-1M dataset have resolutions of at least 512×512. Furt
   <figcaption>This is a video description. It provides context and additional information about the video content.</figcaption>
 </p>
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Video with Description</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+        .description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video width="600" controls>
+            <source src="https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/compare_videos/IIvwqskxtdE_0.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="description">This is a video description. It provides context and additional information about the video content.</p>
+    </div>
+</body>
+</html>
+
+
+
 # Directory
 ```
 DATA_PATH
