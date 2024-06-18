@@ -25,7 +25,7 @@ All videos in the OpenVid-1M dataset have resolutions of at least 512×512. Furt
 
 **Project**: [https://nju-pcalab.github.io/projects/openvid](https://nju-pcalab.github.io/projects/openvid)
 
-**Code**: [https://nju-pcalab.github.io/projects/openvid](https://nju-pcalab.github.io/projects/openvid)
+**Code**: [https://github.com/NJU-PCALab/OpenVid](https://github.com/NJU-PCALab/OpenVid)
 
 # Directory
 ```
