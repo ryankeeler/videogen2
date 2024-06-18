@@ -38,7 +38,7 @@ All videos in the OpenVid-1M dataset have resolutions of at least 512×512. Furt
 
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,7 +78,7 @@ All videos in the OpenVid-1M dataset have resolutions of at least 512×512. Furt
         <p class="description">This is a video description. It provides context and additional information about the video content.</p>
     </div>
 </body>
-</html>
+</html> -->
 
 
 
