@@ -85,8 +85,10 @@ All videos in the OpenVid-1M dataset have resolutions of at least 512×512. Furt
 # Directory
 ```
 DATA_PATH
-    OpenVid-1M.csv
-    OpenVidHD.csv
+    data
+        train
+            OpenVid-1M.csv
+            OpenVidHD.csv
     OpenVid_part0.zip
     OpenVid_part1.zip
     OpenVid_part2.zip
