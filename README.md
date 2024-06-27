@@ -120,7 +120,7 @@ unzip -j OpenVid_part73.zip -d video_folder
 ``OpenVid-1M.csv`` and ``OpenVidHD.csv`` contains the text-video pairs.
 They can easily be read by
 ```python
-import pandas
+import pandas as pd
 df = pd.read_csv("OpenVid-1M.csv")
 ```
 
