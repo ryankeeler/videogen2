@@ -128,6 +128,16 @@ import pandas as pd
 df = pd.read_csv("OpenVid-1M.csv")
 ```
 
+# Model Weights
+We also provide pre-trained model weights on our OpenVid-1M in model_weights.
+You can download model weights by ```wget```, for instance:
+```
+wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/MVDiT-16%C3%97512%C3%97512.pt
+wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/STDiT-16%C3%971024%C3%971024.pt
+wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/STDiT-16%C3%97512%C3%97512.pt
+```
+If you want to generate videos use our pre-trained model weights, please refer to [**here**](https://github.com/NJU-PCALab/OpenVid-1M#inference).
+
 # License
 Our OpenVid-1M is released as CC-BY-4.0. The video samples are collected from publicly available datasets. Users must follow the related licenses [Panda](https://github.com/snap-research/Panda-70M/tree/main?tab=readme-ov-file#license-of-panda-70m), [ChronoMagic](https://github.com/PKU-YuanGroup/MagicTime?tab=readme-ov-file#-license), [Open-Sora-plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan?tab=readme-ov-file#-license), CelebvHQ(Unknow)) to use these video samples.
 
