@@ -100,7 +100,7 @@ DATA_PATH
 ```
 
 # Download
-You can also download each file by ```wget```, for instance:
+You can download each file by ```wget```, for instance:
 ```
 wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/OpenVid_part0.zip
 wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/OpenVid_part1.zip
