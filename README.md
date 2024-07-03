@@ -89,14 +89,14 @@ DATA_PATH
    └─ train
       └─ OpenVid-1M.csv
       └─ OpenVidHD.csv
-└─ model_weights
-   └─ MVDiT-16×512×512.pt
-   └─ STDiT-16×512×512.pt
-   └─ STDiT-16×1024×1024.pt
 └─ OpenVid_part0.zip
 └─ OpenVid_part1.zip
 └─ OpenVid_part2.zip
 └─ ...
+└─ model_weights
+   └─ MVDiT-16×512×512.pt
+   └─ STDiT-16×512×512.pt
+   └─ STDiT-16×1024×1024.pt
 ```
 
 # Download
@@ -132,9 +132,9 @@ df = pd.read_csv("OpenVid-1M.csv")
 We also provide pre-trained model weights on our OpenVid-1M in model_weights.
 You can download model weights by ```wget```, for instance:
 ```
-wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/MVDiT-16%C3%97512%C3%97512.pt
-wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/STDiT-16%C3%971024%C3%971024.pt
-wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/STDiT-16%C3%97512%C3%97512.pt
+wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/MVDiT-16×512×512.pt
+wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/STDiT-16×1024×1024.pt
+wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/model_weights/STDiT-16×512×512.pt
 ```
 If you want to generate videos use our pre-trained model weights, please refer to [**here**](https://github.com/NJU-PCALab/OpenVid-1M#inference).
 
