@@ -97,6 +97,8 @@ DATA_PATH
 
 # Download
 Please refer to [**download script**](https://github.com/NJU-PCALab/OpenVid-1M/blob/main/download_scripts/download_OpenVid.py) to download OpenVid-1M. 
+
+
 You can also download each file by ```wget```, for instance:
 ```
 wget https://huggingface.co/datasets/nkp37/OpenVid-1M/resolve/main/OpenVid_part0.zip
